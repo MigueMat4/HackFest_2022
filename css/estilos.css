@@ -49,6 +49,7 @@ body {
     height: 100%;
     display: flex;
     align-items: center;
+    position: sticky;
 }
 
 .nav__title {
@@ -89,7 +90,11 @@ body {
     display: var(--show, none);
 }
 
-
+.sticky {
+    position: fixed;    
+    width: 100%;
+    height: 10%;
+}
 /* Hero container */
 
 .hero__container {
